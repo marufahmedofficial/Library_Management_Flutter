@@ -16,6 +16,7 @@ class HomePage extends StatelessWidget {
     DbHelper.open();
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: const Text('Library management system'),
       ),
       body: Center(
