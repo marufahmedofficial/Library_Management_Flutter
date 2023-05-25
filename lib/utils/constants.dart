@@ -4,6 +4,7 @@ const List<String> adminReferralCodeList = [
   'ad1003',
   'ad1004',
   'ad1005',
+  'maruf',
 ];
 
 const List<String> bookCategoryList = [
@@ -11,7 +12,10 @@ const List<String> bookCategoryList = [
   'Nonfiction',
   'Drama',
   'Poetry',
-  'Folktale'
+  'Folktale',
+  'Adventure',
+  'Romance ',
+  'Horror',
 ];
 
 const List<String> genderList = [
