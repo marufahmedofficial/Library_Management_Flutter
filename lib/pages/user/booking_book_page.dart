@@ -66,7 +66,7 @@ class _BookingBookPageState extends State<BookingBookPage> {
                   style: Theme
                       .of(context)
                       .textTheme
-                      .headline3,
+                      .displaySmall,
                 ),],
               ),
             ),
@@ -78,7 +78,7 @@ class _BookingBookPageState extends State<BookingBookPage> {
                   style: Theme
                       .of(context)
                       .textTheme
-                      .headline6,
+                      .titleLarge,
                 ),],
               ),
             ),

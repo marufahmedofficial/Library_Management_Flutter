@@ -47,6 +47,7 @@ class _UserHomePageState extends State<UserHomePage> {
       endDrawer: DrawerWidget(id: id,),
       appBar: AppBar(
         title: Text('User Home Page'),
+        centerTitle: true,
         actions: [
           Builder(
             builder: (context) => GestureDetector(
@@ -67,7 +68,7 @@ class _UserHomePageState extends State<UserHomePage> {
               padding: const EdgeInsets.all(8.0),
               child: Text(
                 'Recommended for you',
-                style: Theme.of(context).textTheme.headline5,
+                style: Theme.of(context).textTheme.headlineSmall,
               ),
             ),
             CarouselSlider(
